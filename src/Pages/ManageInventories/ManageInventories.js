@@ -56,7 +56,7 @@ const ManageInventories = () => {
                     </div>
                 )
             }
-            <button className='btn btn-primary w-50 mt-5 d-block mx-auto'>
+            <button className='btn btn-primary w-25 mt-5 d-block mx-auto'>
                 <Link to='/addproduct' className='text-white fw-bold text-decoration-none'>Add New Item</Link>
             </button>
         </div>
