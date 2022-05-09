@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Product = ({ product }) => {
 
-    const { id, name, img, processor, memory, storage, display, price, description, quantity, supplier } = product;
+    const { _id, name, img, processor, memory, storage, display, price, description, quantity, supplier } = product;
     const navigate = useNavigate();
 
     const navigateToDetails = id => {
@@ -25,7 +25,7 @@ const Product = ({ product }) => {
                     <h6 class='card-text'>Quantity: {quantity}</h6>
                     <h6 class='card-text'>Supplier: {supplier}</h6>
                     <div className='d-flex justify-content-center'>
-                        <button onClick={() => navigateToDetails(id)} className='btn btn-primary'>Update</button>
+                        <button onClick={() => navigateToDetails(_id)} className='btn btn-primary'>Update</button>
                     </div>
                 </div>
             </div>
