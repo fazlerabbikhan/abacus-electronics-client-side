@@ -32,6 +32,12 @@ const Details = () => {
                 <button className='btn btn-secondary my-2 mx-auto'>
                     <Link to='' className='text-white fw-bold text-decoration-none'>Delivered</Link>
                 </button>
+                <form className='mx-auto'>
+                    <input placeholder='Add Quantity' type="number" />
+                </form>
+                <button className='btn btn-primary my-2 mx-auto'>
+                    <Link to='' className='text-white fw-bold text-decoration-none'>Restock</Link>
+                </button>
             </div>
             <button className='btn btn-success w-25 mt-5 d-block mx-auto'>
                 <Link to='/manageinventories' className='text-white fw-bold text-decoration-none'>Manage Inventories</Link>
