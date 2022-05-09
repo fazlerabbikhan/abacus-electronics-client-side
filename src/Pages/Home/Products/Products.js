@@ -25,7 +25,7 @@ const Products = () => {
                 }
             </div>
             <button className='btn btn-success w-25 mt-5 d-block mx-auto'>
-                <Link to='/manage' className='text-white fw-bold text-decoration-none'>Manage Inventories</Link>
+                <Link to='/manageinventories' className='text-white fw-bold text-decoration-none'>Manage Inventories</Link>
             </button>
         </div>
     );
