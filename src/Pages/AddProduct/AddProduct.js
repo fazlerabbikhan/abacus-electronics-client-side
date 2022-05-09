@@ -22,8 +22,8 @@ const AddProduct = () => {
 
 
     return (
-        <div className='w-50 mt-5 mx-auto'>
-            <h2 className='text-center'>Add a product</h2>
+        <div className='w-50 mx-auto'>
+            <h2 className='my-3 text-center'>Add New Item</h2>
             <form className='d-flex flex-column' onSubmit={handleSubmit(onSubmit)}>
                 <input className='mb-2' placeholder='Name' type="text" {...register("name")} />
                 <input className='mb-2' placeholder='Price' type="text" {...register("price")} />

@@ -16,7 +16,8 @@ const Details = () => {
 
     return (
         <div>
-            <div class='card mt-5 mx-auto' style={{ width: '30rem' }}>
+            <h2 className='my-3 text-center'>Product Details</h2>
+            <div class='card mx-auto' style={{ width: '30rem' }}>
                 <img src={product.img} class='card-img-top' alt='...' />
                 <div class='card-body'>
                     <h4 class='card-title'>{product.name}</h4>
@@ -33,7 +34,7 @@ const Details = () => {
                     <Link to='' className='text-white fw-bold text-decoration-none'>Delivered</Link>
                 </button>
                 <form className='mx-auto'>
-                    <input placeholder='Add Quantity' type="number" />
+                    <input placeholder='Restock the items' type="number" />
                 </form>
                 <button className='btn btn-primary my-2 mx-auto'>
                     <Link to='' className='text-white fw-bold text-decoration-none'>Restock</Link>
