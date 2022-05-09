@@ -29,6 +29,9 @@ const Details = () => {
                     <h6 class='card-text'>Quantity: {product.quantity}</h6>
                     <h6 class='card-text'>Supplier: {product.supplier}</h6>
                 </div>
+                <button className='btn btn-secondary my-2 mx-auto'>
+                    <Link to='' className='text-white fw-bold text-decoration-none'>Delivered</Link>
+                </button>
             </div>
             <button className='btn btn-success w-25 mt-5 d-block mx-auto'>
                 <Link to='/manageinventories' className='text-white fw-bold text-decoration-none'>Manage Inventories</Link>

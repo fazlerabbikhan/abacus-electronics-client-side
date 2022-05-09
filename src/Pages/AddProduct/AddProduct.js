@@ -22,8 +22,8 @@ const AddProduct = () => {
 
 
     return (
-        <div className='w-50 mx-auto'>
-            <h2>Please add a service</h2>
+        <div className='w-50 mt-5 mx-auto'>
+            <h2 className='text-center'>Add a product</h2>
             <form className='d-flex flex-column' onSubmit={handleSubmit(onSubmit)}>
                 <input className='mb-2' placeholder='Name' type="text" {...register("name")} />
                 <input className='mb-2' placeholder='Price' type="text" {...register("price")} />
@@ -35,7 +35,7 @@ const AddProduct = () => {
                 <textarea className='mb-2' placeholder='Description' {...register("description")} />
                 <input className='mb-2' placeholder='Quantity' type="number" {...register("quantity")} />
                 <input className='mb-2' placeholder='Supplier' type="text" {...register("supplier")} />
-                <input type="submit" value="Add Service" />
+                <input className='btn btn-primary fw-bold' type="submit" value="Add Product" />
             </form>
         </div>
     );
