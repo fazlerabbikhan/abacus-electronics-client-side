@@ -30,10 +30,6 @@ const ManageInventories = () => {
         <div className='container row mx-auto'>
             <h2 className='my-5 text-center'>Manage Inventories</h2>
             {
-                // products.map(product => <div key={product._id}>
-                //     <h5>{product.name} <button onClick={() => handleDelete(product._id)}>X</button></h5>
-                //     <h5 className='mb-3'>Price: {product.price}</h5>
-                // </div>)
                 products.map(product =>
                     <div key={product._id} className='g-2 col-12 col-md-6 col-lg-4'>
                         <div className='card mx-3' style={{ width: '20rem' }}>
