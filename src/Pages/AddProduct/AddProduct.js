@@ -6,7 +6,7 @@ const AddProduct = () => {
 
     const onSubmit = data => {
         console.log(data);
-        const url = 'https://guarded-sierra-19113.herokuapp.com/products';
+        const url = 'https://abacus-electronics-server-side.onrender.com/products';
         fetch(url, {
             method: 'POST',
             headers: {

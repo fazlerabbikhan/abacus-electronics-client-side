@@ -4,7 +4,7 @@ const useProducts = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        fetch('https://guarded-sierra-19113.herokuapp.com/products')
+        fetch('https://abacus-electronics-server-side.onrender.com/products')
             .then(res => res.json())
             .then(data => setProducts(data));
     }, []);
