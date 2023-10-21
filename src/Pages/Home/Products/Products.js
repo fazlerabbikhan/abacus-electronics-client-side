@@ -7,7 +7,7 @@ const Products = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        fetch('https://abacus-electronics-server-side.onrender.com/products')
+        fetch('https://abacus-electronics-server-side.fly.dev/products')
             .then(res => res.json())
             .then(data => setProducts(data.slice(0, 6)));
     }, [])

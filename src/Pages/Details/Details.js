@@ -6,7 +6,7 @@ const Details = () => {
     const [product, setProduct] = useState({});
 
     useEffect(() => {
-        const url = `https://abacus-electronics-server-side.onrender.com/products/${productId}`;
+        const url = `https://abacus-electronics-server-side.fly.dev/products/${productId}`;
 
         fetch(url)
             .then(res => res.json())

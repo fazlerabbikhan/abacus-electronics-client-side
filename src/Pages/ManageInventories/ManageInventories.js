@@ -9,7 +9,7 @@ const ManageInventories = () => {
     const handleDelete = id => {
         const proceed = window.confirm('Are you sure?');
         if (proceed) {
-            const url = `https://abacus-electronics-server-side.onrender.com/products/${id}`;
+            const url = `https://abacus-electronics-server-side.fly.dev/products/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })
